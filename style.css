@@ -1,0 +1,77 @@
+
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+.nav{
+  height:80px;
+  background:orange;
+  /* background-color: whitesmoke;*/
+}
+.nav div{
+  display: inline-block;
+  position: absolute;
+  left: 4;
+  padding: 15px;
+  front-size:20px;
+  color:white;
+}
+/*style the background and foreground colors on the atom-text-editor-element itself
+*/
+.nav ul{
+  position: absolute;
+  right:5px;
+}
+
+.nav ul li{
+  display: inline-block;
+}
+
+.nav ul li a{
+  color: white;
+padding: 7px;
+}
+
+.home {
+  background: url("back.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.about.about-content{
+  margin: 150px auto 0 auto;
+  width: 500px;
+}
+
+.about.about.about-content h1{
+  text-align: center;
+}
+
+.about.about.about-content p{
+  text-align:justify;
+}
+.services-content.card-container ul{
+  padding:0;
+}
+.services-content.card-container ul li{
+  list-style:none;
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
+}
+.services-content.card-container ul li p{
+  text-align: justify;
+  font-style: normal;
+  color:red;
+}
